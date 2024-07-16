@@ -103,17 +103,17 @@
             </v-card-title>
             </v-card-text>
           </v-card>
-          <v-card title="Full stack Software Engineer" class="mt-6" variant="tonal">
+          <v-card title="Bsc. Applied Computer Science" class="mt-6" variant="tonal">
             <v-card-text class="text-medium-emphasis">
              <v-card-title>
-              <h4>ALX Africa<br/>2023</h4>
+              <h4>Chuka Unviversity<br/>2019</h4>
             </v-card-title>
             </v-card-text>
           </v-card>
-          <v-card title="Full stack Software Engineer" class="mt-6" variant="tonal">
+          <v-card title="Kenya Certificate of Secondary Education" class="mt-6" variant="tonal">
             <v-card-text class="text-medium-emphasis">
              <v-card-title>
-              <h4>ALX Africa<br/>2023</h4>
+              <h4>Makueni Boys High School<br/>2014</h4>
             </v-card-title>
             </v-card-text>
           </v-card>
