@@ -9,7 +9,7 @@
 			</template>
 
 			<v-toolbar-title>
-			<h2 class="2px ml-12">StevNdunda</h2>
+			<h2 class="ml-xm-0">StevNdunda</h2>
 			</v-toolbar-title>
 
 			<v-spacer></v-spacer>

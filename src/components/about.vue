@@ -51,13 +51,12 @@
 		variant="outlined"
 		>
       <template #title>
-        <h2 class="text-h5 font-weight-bold">Software, Web and Mobile Development</h2>
+        <h2 class="text-h5 font-weight-bold">Systems Mantainance & Tech Support</h2>
       </template>
 
       <template #text>
         <div class="text-subtitle-1 parag text-medium-emphasis">
-          As a software developer, I specialize in creating efficient and reliable applications that have responsive features. My focus is on ensuring that the apps I build can adapt to any screen size. I make sure to consider the overall project goals while understanding my clients' needs, and am able to quickly create prototypes. I also use efficient development methods and tools to give my clients a competitive edge.
-        </div>
+I provide technical support for custom software that I or a partner have created for my clients. I also offer 24/7 monitoring of their critical applications, hardware, and overall system performance to ensure uptime and prevent any potential failures.        </div>
       </template>
 
       <v-overlay
@@ -68,31 +67,7 @@
         persistent
       />
     </v-card>
-    <!-- card -->
-		<v-card
-		class="py-4 mt-6"
-		color="surface-variant"
-		rounded="lg"
-		variant="outlined"
-		>
-      <template #title>
-        <h2 class="text-h5 font-weight-bold">Software, Web and Mobile Development</h2>
-      </template>
 
-      <template #text>
-        <div class="text-subtitle-1 parag text-medium-emphasis">
-          As a software developer, I specialize in creating efficient and reliable applications that have responsive features. My focus is on ensuring that the apps I build can adapt to any screen size. I make sure to consider the overall project goals while understanding my clients' needs, and am able to quickly create prototypes. I also use efficient development methods and tools to give my clients a competitive edge.
-        </div>
-      </template>
-
-      <v-overlay
-        opacity=".12"
-        scrim="primary"
-        contained
-        model-value
-        persistent
-      />
-    </v-card>
   </div>
 
 

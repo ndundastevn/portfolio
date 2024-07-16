@@ -1,8 +1,8 @@
 <template>
- <v-card class="my-12 py-12" border-0 color="black">
+ <v-card class="my-2 py-6" border-0 color="black">
     <v-row>
       <v-col cols="12" sm="6" order="last" order-sm="first">
-        <v-card-title class="mt-12">Hi, there. I'm"</v-card-title>
+        <v-card-title class="mt-12">Hi, there. I'm,</v-card-title>
         <h1 class="">Stephen Ndunda</h1>
         <h3 class="pt-2">
           Software Engineer, Creative Web Developer, and Graphic Designer
@@ -17,7 +17,7 @@
         <div class="flex parag pl-2 text-medium-emphasis pt-4">
           <div class="mt-4">
             <v-icon class="pr-4">mdi-phone</v-icon>
-            <span>0888858585</span>
+            <span>+254799119338</span>
           </div>
           <div class="mt-4">
             <v-icon class="pr-4">mdi-email</v-icon>
