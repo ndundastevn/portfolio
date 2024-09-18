@@ -5,7 +5,7 @@
         <v-card-title class="mt-12">Hi, there. I'm,</v-card-title>
         <h1 class="">Stephen Ndunda</h1>
         <h3 class="pt-2">
-          Software Engineer, Creative Web Developer, and Graphic Designer
+          Software Engineer, Creative Web Developer, and Network Engineer
         </h3>
 
         <p class="pt-4 text-medium-emphasis">
@@ -27,6 +27,10 @@
             <v-icon class="pr-4">mdi-map-marker-outline</v-icon>
             <span>Nairobi, kenya</span>
           </div>
+          <div class="mt-4">
+            <v-icon class="pr-4">mdi-github</v-icon>
+            <span>@ndundastevn</span>
+          </div>
         </div>
         <div class="parag pl-6 text-medium-emphasis pt-6">
           <v-icon class="pr-16">mdi-twitter</v-icon>
@@ -39,7 +43,7 @@
           class="mb-4 mt-12"
           height="300"
           rounded-lg
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_JmafxKbli9Es5QUvL6d-qIdOd5RmExsvA&s"
+          src="../assets/stephen ndunda.jpg"
         />
       </v-col>
     </v-row>

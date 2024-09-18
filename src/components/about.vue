@@ -56,7 +56,33 @@
 
       <template #text>
         <div class="text-subtitle-1 parag text-medium-emphasis">
-I provide technical support for custom software that I or a partner have created for my clients. I also offer 24/7 monitoring of their critical applications, hardware, and overall system performance to ensure uptime and prevent any potential failures.        </div>
+          I provide technical support for custom software that I or a partner have created for my clients. I also offer 24/7 monitoring of their critical applications, hardware, and overall system performance to ensure uptime and prevent any potential failures.        </div>
+      </template>
+
+      <v-overlay
+        opacity=".12"
+        scrim="primary"
+        contained
+        model-value
+        persistent
+      />
+    </v-card>
+
+    <!-- card -->
+		<v-card
+		class="py-4 mt-6"
+		color="surface-variant"
+		rounded="lg"
+		variant="outlined"
+		>
+      <template #title>
+        <h2 class="text-h5 font-weight-bold">Computer Networking</h2>
+      </template>
+
+      <template #text>
+        <div class="text-subtitle-1 parag text-medium-emphasis">
+          Skilled in computer networking, with hands-on experience in configuring, maintaining, and troubleshooting network infrastructure, including routers, switches, firewalls, and VPNs. Proficient in TCP/IP, network protocols, LAN/WAN environments, and network security practices.
+        </div>
       </template>
 
       <v-overlay

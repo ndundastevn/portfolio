@@ -103,6 +103,13 @@
             </v-card-title>
             </v-card-text>
           </v-card>
+          <v-card title="CISCO Networking" class="mt-6" variant="tonal">
+            <v-card-text class="text-medium-emphasis">
+             <v-card-title>
+              <h4>Kenyatta Unviversity<br/>2020</h4>
+            </v-card-title>
+            </v-card-text>
+          </v-card>
           <v-card title="Bsc. Applied Computer Science" class="mt-6" variant="tonal">
             <v-card-text class="text-medium-emphasis">
              <v-card-title>
@@ -114,6 +121,13 @@
             <v-card-text class="text-medium-emphasis">
              <v-card-title>
               <h4>Makueni Boys High School<br/>2014</h4>
+            </v-card-title>
+            </v-card-text>
+          </v-card>
+          <v-card title="Kenya Certificate of Primary Education" class="mt-6" variant="tonal">
+            <v-card-text class="text-medium-emphasis">
+             <v-card-title>
+              <h4>Kivandini Primary School<br/>2014</h4>
             </v-card-title>
             </v-card-text>
           </v-card>

@@ -20,7 +20,6 @@
 			<v-btn @click="scroll('skills')" variant="text">skills</v-btn>
 			<v-btn @click="scroll('education')" variant="text">education</v-btn>
 			<v-btn @click="scroll('education')" variant="text">experience</v-btn>
-			<v-btn @click="scroll('portfolio')" variant="text">portfolio</v-btn>
 			<v-btn @click="scroll('contact')" variant="text">Contact</v-btn>
 			</template>
 		</v-app-bar>
@@ -37,44 +36,34 @@
       </v-navigation-drawer>
 
       <v-main>
-        <!-- banner -->
-        <div class="bg-black">
+
+		    <!-- banner -->
+        <div class="bg-black hidden" >
           <v-container id="home">
             <barner/>
           </v-container>
         </div>
 
         <!-- About -->
-        <v-container id="about">
+        <v-container id="about" class="hidden">
           <about />
         </v-container>
 
-        <div class="bg-black">
+        <div class="bg-black hidden" >
           <!-- Skills -->
           <v-container color="black" id="skills" class="py-16">
               <skills/>
           </v-container>
 
           <!-- education/experience -->
-          <v-container color="black" id="education">
+          <v-container color="black wow zoomIn" data-wow-delay="0.1s" id="education">
               <education/>
           </v-container>
         </div>
 
-        <!-- portfolio -->
-        <v-container id="portfolio">
-          <portfolio/>
-        </v-container>
-
         <!-- contact -->
-        <v-container id="contact">
-          <div>
-            <h1 class="text-h2 text-center font-weight-bold mt-12">
-              Contact Me
-            </h1>
-            <v-card class="mt-4" title="Phone" text="08888548545" prepend-icon="mdi-phone" variant="tonal"></v-card>
-            <v-card class="mt-4" title="Phone" text="08888548545" prepend-icon="mdi-phone" variant="tonal"></v-card>
-          </div>
+        <v-container id="contact" class="hidden">
+          <contact/>
         </v-container>
 
       </v-main>
@@ -85,7 +74,11 @@
 </template>
 
 <script>
+import contact from '@/components/contact.vue';
+
+
   export default {
+  components: { contact },
     data: () => ({
       drawer: false,
       group: null,
@@ -122,21 +115,7 @@
       },
     },
 
-    // mounted() {
-    //   // Get the elements with the class name 'contactmepage'
-    //   var elements = document.getElementsByClassName('contactmepage');
 
-    //   // Check if there is at least one element with that class
-    //   if (elements.length > 0) {
-    //     // Scroll the first element into view
-    //     elements[0].scrollIntoView();
-
-    //     // Log the element to the console
-    //     console.log('element is...', elements[0]);
-    //   } else {
-    //     console.log('No elements with class contactmepage found.');
-    //   }
-    // }
   }
 </script>
 
